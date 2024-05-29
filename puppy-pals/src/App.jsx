@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 
-      <p> { featPupId && <p>{ featPupId }</p> } </p>
+      { featPupId && <p>{ featPupId }</p> } 
 
       {puppies.map((puppy) => {
 
