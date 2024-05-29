@@ -17,10 +17,10 @@ function App() {
 */
 
   return (
-    <div className="App">
-
+    <div className="app">
+        <h1>Puppy Pals</h1>
       { featPupId && (
-        <div>
+        <div className='pupCard'>
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
@@ -33,7 +33,7 @@ function App() {
 
         return (
          // <p onClick={()=>{console.log("puppy id: ", puppy.id)}} key={puppy.id}>
-         <p onClick={()=>{setFeatPupId(puppy.id)}} key={puppy.id}>
+         <p onClick={()=>{setFeatPupId(puppy.id)}} key={puppy.id} className="reglon">
             {puppy.name}
           </p>
         );
