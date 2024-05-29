@@ -93,12 +93,13 @@ h1{
   
 }
 
-.pupCard{background-color: whitesmoke; padding: 1em; display: flex; justify-content: center;}
+.pupCard{background-color: rgb(231, 231, 231); padding: 1em; display: flex; justify-content: center;}
 
 .reglon{
   background-color: whitesmoke;
   border: fuchsia 1px solid;
   padding: 1em;
+  margin: 0px;
   text-align: center;
 
 }
